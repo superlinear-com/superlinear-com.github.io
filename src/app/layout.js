@@ -1,5 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
           <p className="p-2">To pronounce &quotsuperlinear&quot;, (suh-per-lin-ee-er - begin by saying the first syllable, &quot;suh&quot;, with a short, sharp sound. Next, say the second syllable, &quot;per&quot;, with a slightly longer and more emphasized sound. Then, say the third syllable, &quot;lin&quot;, with a short, sharp sound again. Finally, say the last two syllables, &quot;ee&quot; and &quot;er&quot;, together with a slightly longer and more emphasized sound.
             Overall, the word &quotsuperlinear&quot should be pronounced with a slightly emphasized and drawn out rhythm, with the emphasis placed on the middle syllables.</p>
         </footer>
+        <GoogleAnalytics gaId="G-CBSKBGPXHT" />
       </body>
     </html>
   )
