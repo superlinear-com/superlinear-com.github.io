@@ -40,7 +40,7 @@ export default function Home() {
           <p className="pb-4 font-bold">Contact Us</p>
           <p className="pb-4">
             We&apos;d love to hear from you. If you&apos;re interested in working with us, or just want to find out more about what we do, please get in touch.
-            mail@superlinear.com or +64 7 8080 980
+            mail@superlinear.com
           </p>
         </div>
       </div>
